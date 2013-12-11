@@ -9,7 +9,7 @@ for (var i = 0; i < array.length; i++) {
    else {
        console.log("We're on something smaller: " + array[i]);
    }
-    console.log("let me print i: " + i);
+   
 }
 
 
