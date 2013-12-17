@@ -38,3 +38,14 @@ function search(lastName){
     }
 }
 search("Jones");
+
+function add(firstName, lastName, email, phoneNumber){
+    contacts[contacts.length] = {
+        firstName: firstName,
+        lastName: lastName,
+        phoneNumber: phoneNumber,
+        email: email
+    };
+}
+add("Tom", "Kennedy", "aaa@dfg.com", "(415) 333-3333");
+list("Tom");
